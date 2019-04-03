@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: YouLeftYourLightsOn
+Implementation-Version: 0.1.0
+Built-By: terrance
+Implementation-Vendor-Id: org.YLYLO
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/YouLeftYourLightsOn
+Created-By: Maven Integration for Eclipse
+
