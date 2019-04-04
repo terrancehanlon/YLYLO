@@ -1,4 +1,4 @@
-package com.YLYLO.com.YLYLO.controllers;
+package com.YLYLO.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
