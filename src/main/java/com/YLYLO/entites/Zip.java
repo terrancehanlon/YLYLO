@@ -1,5 +1,10 @@
 package com.YLYLO.entites;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "zip")
 public class Zip {
 	public Zip(long zip) {
 		super();

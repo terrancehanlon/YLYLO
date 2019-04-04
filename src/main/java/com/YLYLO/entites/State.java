@@ -2,6 +2,10 @@ package com.YLYLO.entites;
 
 import java.util.List;
 
+import javax.persistence.Entity;
+
+@Entity
+@Table(name = "state")
 public class State {
 
 	Country country;

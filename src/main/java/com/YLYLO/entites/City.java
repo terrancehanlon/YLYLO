@@ -1,5 +1,10 @@
 package com.YLYLO.entites;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "city")
 public class City {
 	
 	Country country;
