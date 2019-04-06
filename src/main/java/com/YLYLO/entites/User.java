@@ -7,10 +7,12 @@ import javax.persistence.Table;
 @Table(name = "user")
 public class User {
 
-    String car;
+    Car car;
     String city;
+    String phoneNumber;
+    
 
-    public User(String car, String city) {
+    public User(Car car, String city) {
         this.car = car;
         this.city = city;
     }
@@ -19,7 +21,7 @@ public class User {
         return car;
     }
 
-    public void setCar(String car) {
+    public void setCar(Car car) {
         this.car = car;
     }
 

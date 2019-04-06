@@ -10,7 +10,7 @@ public class Car {
 	String model;
 	String make;
 	String color;
-	int year;
+	String year;
 	public String getModel() {
 		return model;
 	}
@@ -29,13 +29,13 @@ public class Car {
 	public void setColor(String color) {
 		this.color = color;
 	}
-	public int getYear() {
+	public String getYear() {
 		return year;
 	}
-	public void setYear(int year) {
+	public void setYear(String year) {
 		this.year = year;
 	}
-	public Car(String model, String make, String color, int year) {
+	public Car(String model, String make, String color, String year) {
 		super();
 		this.model = model;
 		this.make = make;
